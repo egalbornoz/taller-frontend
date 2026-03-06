@@ -4,8 +4,10 @@ import Swal from 'sweetalert2'; // Importamos SweetAlert para el aviso de expuls
 
 const clienteAxios = axios.create({
     // Asegúrate de que esta URL apunte a tu backend
-    baseURL: "https://backend-node-inubator.onrender.com" 
+    baseURL: "https://api-taller.onrender.com" 
 });
+
+
 
 // --- INTERCEPTOR DE PETICIONES ---
 // Este código se ejecuta automáticamente ANTES de enviar cualquier petición
